@@ -1,0 +1,38 @@
+.outline {
+  margin-top: 1rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.contentLeft {
+  width: 15%;
+}
+
+.list {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.listItem {
+  font-weight: 500;
+  align-items: center;
+  font-size: 16px;
+  color: #aeaeae;
+}
+
+.listItem:focus {
+  color: white;
+}
+
+.RiMore2Line {
+  margin-left: 2.5rem;
+  color: #fff;
+}
+
+.contentRight {
+  width: calc(100% - 15% - 1.5rem);
+}
